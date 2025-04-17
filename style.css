@@ -1,10 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Georgia', serif;
   background-color: #fdfaf6;
+  font-family: 'Georgia', serif;
   color: #5b4e47;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -37,4 +37,3 @@ p {
 .menu a:hover {
   background-color: #e3d9ce;
 }
-
