@@ -1,39 +1,58 @@
 body {
-  background-color: #fdfaf6;
-  font-family: 'Georgia', serif;
-  color: #5b4e47;
-  text-align: center;
   margin: 0;
   padding: 0;
+  background-color: #fdfaf6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'San Francisco', sans-serif;
+  color: #4e3c3d;
+  text-align: center;
 }
 
-.container {
-  padding: 80px 20px;
+.header {
+  padding: 80px 20px 40px;
 }
 
-h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
-}
-
-p {
+.subtitle {
   font-size: 18px;
-  margin-bottom: 50px;
-  color: #8d7e75;
+  color: #7b6f65;
+}
+
+.menu {
+  margin: 40px 0;
 }
 
 .menu a {
-  display: inline-block;
-  margin: 10px 20px;
-  padding: 12px 24px;
+  display: block;
+  margin: 12px auto;
+  padding: 14px 28px;
+  width: fit-content;
   background-color: #ede5dd;
-  color: #5b4e47;
   border-radius: 30px;
   text-decoration: none;
+  color: #5a4d48;
   font-size: 16px;
-  transition: all 0.3s ease;
+  transition: 0.3s;
 }
 
 .menu a:hover {
   background-color: #e3d9ce;
+}
+
+.quote-box {
+  margin: 40px 20px;
+  font-style: italic;
+  color: #8d7e75;
+  font-size: 16px;
+}
+
+.footer {
+  margin-top: 80px;
+  font-size: 14px;
+  color: #a49c97;
+}
+
+.footer a {
+  display: inline-block;
+  margin: 0 12px;
+  color: #a49c97;
+  text-decoration: none;
 }
