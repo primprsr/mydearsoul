@@ -2,19 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Dear Soul</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to My Dear Soul 🌙</h1>
-    <p>A gentle space for your heart to rest.</p>
-
-    <div class="menu">
-      <a href="tarot.html">🃏 Tarot Draw</a>
-      <a href="astrology.html">🌙 Astrology</a>
-      <a href="healing.html">☁️ Healing Space</a>
-    </div>
+  <div class="header">
+    <h1>My Dear Soul 🌙</h1>
+    <p class="subtitle">A gentle space for your heart to rest.</p>
+    <button id="toggleMusic">🔊 Music On/Off</button>
   </div>
+
+  <div class="menu">
+    <a href="#">🔮 Today’s Horoscope</a>
+    <a href="#">🌟 Your Foundational Reading</a>
+    <a href="#">🃏 Tarot Healing</a>
+    <a href="#">💭 Check Your Mood</a>
+  </div>
+
+  <div class="quote-box">
+    <p class="quote">“Even when it’s hard, you’re still worthy of love.”</p>
+  </div>
+
+  <div class="footer">
+    <a href="#">💌 Contact Us</a>
+    <a href="#">🤝 Support Us</a>
+    <p class="credit">© 2025 My Dear Soul</p>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <source src="music/background.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
