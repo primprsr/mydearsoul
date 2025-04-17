@@ -1,1 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fdfaf6;
+  color: #5b4e47;
+  text-align: center;
+}
+
+.container {
+  padding: 80px 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 50px;
+  color: #8d7e75;
+}
+
+.menu a {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 12px 24px;
+  background-color: #ede5dd;
+  color: #5b4e47;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #e3d9ce;
+}
 
