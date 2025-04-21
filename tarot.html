@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarot Room | My Dear Soul</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="tarot-container">
+    <h1>Tarot Room</h1>
+    <p class="subtitle">What would you like to ask?</p>
+    <div class="question-buttons">
+      <button onclick="drawCard('general')">🌟 General Tarot</button>
+      <button onclick="drawCard('custom')">💬 Ask a Question</button>
+    </div>
+    <div id="card-area">
+      <img id="cardImage" src="assets/card-back.png" alt="Card Back" onclick="revealCard()">
+      <p id="cardTitle"></p>
+      <p id="cardMessage"></p>
+    </div>
+  </div>
+
+  <script src="js/tarotData.js"></script>
+  <script src="js/tarot.js"></script>
+</body>
+</html>
