@@ -2,60 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Dear Soul 🌙 </title>
+  <title>My Dear Soul</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <audio id="bg-music" loop>
+  <audio id="bg-music" loop autoplay>
     <source src="music/background.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
-  <nav class="top-nav">
-    <div class="nav-left">
-      <span class="logo">My Dear Soul</span>
-    </div>
-    <div class="nav-right">
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="support.html">Support</a>
-      <a href="appointment.html">Appointment</a>
-      <button id="music-toggle">🔈</button>
+  <nav class="nav">
+    <div class="logo">My Dear Soul</div>
+    <div class="menu-links">
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Support</a>
+      <a href="#">Appointment</a>
     </div>
   </nav>
 
-  <header>
-    <h1>Welcome to My Dear Soul</h1>
-    <p class="subtitle">a gentle space for your heart to rest</p>
+  <header class="hero">
+    <h1>A gentle space for your heart to rest.</h1>
+    <p>Let the stars guide you inward ✧</p>
   </header>
 
-  <main class="menu">
-    <a class="menu-item" href="tarot.html">🃏 Tarot Room</a>
-    <a class="menu-item" href="soulblueprint.html">✨ Soul Blueprint</a>
-    <a class="menu-item" href="soultosoul.html">🕊️ Soul to Soul</a>
-    <a class="menu-item" href="mysoulspace.html">🌿 My Soul Space</a>
+  <main class="grid">
+    <a class="card" href="tarot.html">🃏 Tarot Room</a>
+    <a class="card" href="soulblueprint.html">✨ Soul Blueprint</a>
+    <a class="card" href="soultosoul.html">🕊️ Soul to Soul</a>
+    <a class="card" href="mysoulspace.html">🌿 My Soul Space</a>
   </main>
 
   <footer>
-    <p>&copy; 2025 My Dear Soul. Made with by Prim.</p>
+    <p>&copy; 2025 My Dear Soul. Made with 🌙 by Prim.</p>
   </footer>
-
-  <script>
-    const bgMusic = document.getElementById('bg-music');
-    const toggleBtn = document.getElementById('music-toggle');
-
-    let isPlaying = false;
-    toggleBtn.addEventListener('click', () => {
-      if (isPlaying) {
-        bgMusic.pause();
-        toggleBtn.textContent = '🔇';
-      } else {
-        bgMusic.play();
-        toggleBtn.textContent = '🔊';
-      }
-      isPlaying = !isPlaying;
-    });
-  </script>
 </body>
 </html>
